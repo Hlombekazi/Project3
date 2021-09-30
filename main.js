@@ -34,18 +34,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     //This is the part i am struggling with at the moment.
-    loginForm.addEventListener("submit", e => {
-        e.preventDefault();
+    //loginForm.addEventListener("submit", e => {
+     //   e.preventDefault();
+      //
+         //   var username = document.getElementById("username").value;
+         //   var password = document.getElementById("password").value;
+          //         if (username == null|| username == "" && password == null || password == "") {
+             //            setFormMessage(loginForm, "error", "Invalid username/password combination");
+               //         }
+                  //        else 
+              //      {
+               //          window.location.href="Home.html"; 
+           //    }
 
-        if(loginForm)
-        {
-            window.location.href="Home.html";
-        }else
-        {
-            setFormMessage(loginForm, "error", "Invalid username/password combination");
-        }
-         
-    });
+   // });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
